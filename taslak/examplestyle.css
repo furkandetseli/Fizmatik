@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: antiquewhite;
+    width: 800px;
+}
+.top{
+    background-color: blue;
+    width: 800px; 
+    height: 100px;
+}
+.left{
+    background-color: orange;
+    width: 100px;
+    height: 400px;
+    float: left;
+}
+.center{
+    background-color: aqua;
+    width: 600px;
+    height: 400px;
+    float: left;
+}
+.right{
+    background-color: yellow;
+    width: 100px;
+    height: 400px;
+    float: right;
+}
+.lower{
+    background-color: palevioletred;
+    width: 800px;
+    height: 100px;
+    clear: both;
+}
