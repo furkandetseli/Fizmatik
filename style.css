@@ -12,6 +12,8 @@
     background-color: rgba(223, 223, 223, 0.733);
     width: 100%;
     height: 10%;
+    border-bottom: groove;
+    border-bottom-width: 1px;
 }
 /* .navbar ul{
     float: right;
@@ -54,7 +56,9 @@
     width: 50%;
     float: left;
     height: 90%;
-    
+    border-right: groove;
+    border-right-width: 1px;
+    border-color: black;
 }
 div.left .buttons{
     margin: 10px 10%;
@@ -67,7 +71,7 @@ div.left .buttons{
 }
 .right{
     float: left;
-    width: 50%;
+    width: 49%;
     height: 90%;
 }
 .right h3{
@@ -77,15 +81,15 @@ div.left .buttons{
 }
 div.right .result{
     margin: 10px 10%;
-    border-style:groove;
-    border-width: 5px;
-    border-color: rgb(0, 168, 160);
+    height: 500px;
 
 }
 .lower{
-    width: auto;
     height: 100%;
     width: 100%;
+    border-top: groove;
+    border-top-width: 1px;
+    border-color: #000;
 }
 .finally{
     width: 100%;
@@ -187,8 +191,8 @@ div.right .result{
 .btn-6 {
     margin: 3px;
     border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
+    color: rgb(0, 168, 160);
+    background-color: white;
     padding: 3% 30%;
     cursor: pointer;
     border: 2px solid rgb(0, 168, 160);
@@ -197,8 +201,8 @@ div.right .result{
     border-radius: 16px;
 }
 .btn-6:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
+    color: white;
+    background-color: rgb(0, 168, 160);
     border: 2px solid rgb(0, 168, 160);
 }
     

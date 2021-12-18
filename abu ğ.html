@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+ 
+<body>
+    <button id="btn">YAZDIR</button>
+    <div id="kutu"></div>
+    
+    <script>
+        function Yazdir(){
+            document.getElementById("kutu").innerHTML="abi";
+        }
+        
+        var btnYaz=document.getElementById("btn");
+        btnYaz.onclick=Yazdir;
+    </script>
+</body>
+</html>
