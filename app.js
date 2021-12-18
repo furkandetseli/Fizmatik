@@ -1,19 +1,28 @@
 function Yazdir(){
-    document.getElementById("result").innerHTML=`<img width="500" height="600" src='./görseller/cıvıkyumurta.jpeg'>`;
+    document.getElementById("result").innerHTML=`<img width="100%" height="100%"  src='./görseller/bavul.jpg'>`;
 }
 function Yazdir2(){
-    document.getElementById("result").innerHTML=`<img width="500" height="600" src='./görseller/kelmacit.jpeg'>`;
+    document.getElementById("result").innerHTML=`<img width="100%" height="100%"  src='./görseller/kelmacit.jpeg'>`;
 }
 function Yazdir3(){
-    document.getElementById("result").innerHTML="3";
+    document.getElementById("result").innerHTML=`<img width="100%" height="100%"  src='./görseller/han.jpg'>`;
 }
 function Yazdir4(){
-    document.getElementById("result").innerHTML=`<img width="500" height="600" src='./görseller/dedemuzver.jpeg'>`;
+    document.getElementById("result").innerHTML=`<img width="100%" height="100%" src='./görseller/dedemuzver.jpeg'>`;
 }
 function Yazdir5(){
-    document.getElementById("result").innerHTML=`<img width="500" height="600" src='./görseller/mordeve.jpeg'>`;
+    document.getElementById("result").innerHTML=`<img width="100%" height="100%"  src='./görseller/formula.jpg'>`;
 }
 function Yazdir6(){
+    document.getElementById("result").innerHTML=`<img width="100%" height="100%"  src='./görseller/mordeve.jpeg'>`;
+}
+function Yazdir7(){
+    document.getElementById("result").innerHTML=`<img width="100%" height="100%"  src='./görseller/cıvıkyumurta.jpeg'>`;
+}
+function Yazdir8(){
+    document.getElementById("result").innerHTML=`<img width="100%" height="100%" src='./görseller/tamek.jpeg'>`;
+}
+function Yazdir9(){
     document.getElementById("result").innerHTML="";
 }
 
@@ -34,3 +43,12 @@ btnYaz5.onclick=Yazdir5;
 
 var btnYaz6=document.getElementById("btn-6");
 btnYaz6.onclick=Yazdir6;
+
+var btnYaz7=document.getElementById("btn-7");
+btnYaz7.onclick=Yazdir7;
+
+var btnYaz8=document.getElementById("btn-8");
+btnYaz8.onclick=Yazdir8;
+
+var btnYaz9=document.getElementById("btn-9");
+btnYaz9.onclick=Yazdir9;
