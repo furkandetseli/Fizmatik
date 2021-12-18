@@ -11,7 +11,7 @@ function Yazdir4(){
     document.getElementById("result").innerHTML=`<img width="500" height="600" src='./görseller/dedemuzver.jpeg'>`;
 }
 function Yazdir5(){
-    document.getElementById("result").innerHTML="5";
+    document.getElementById("result").innerHTML=`<img width="500" height="600" src='./görseller/mordeve.jpeg'>`;
 }
 function Yazdir6(){
     document.getElementById("result").innerHTML="";
