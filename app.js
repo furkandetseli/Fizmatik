@@ -1,29 +1,29 @@
 function Yazdir(){
-    document.getElementById("result").innerHTML=`<img width="60%" height="60%"  src='./görseller/bavul.jpg'>`;
+    document.getElementById("result").innerHTML=`<img width="90%" height="60%"  src='./görseller/bavul.jpg'>`;
 }
 function Yazdir2(){
-    document.getElementById("result").innerHTML=`<img width="60%" height="60%"  src='./görseller/kelmacit.jpeg'>`;
+    document.getElementById("result").innerHTML=`<img width="90%" height="60%"  src='./görseller/kelmacit.jpeg'>`;
 }
 function Yazdir3(){
-    document.getElementById("result").innerHTML=`<img width="60%" height="60%"  src='./görseller/han.jpg'>`;
+    document.getElementById("result").innerHTML=`<img width="90%" height="60%"  src='./görseller/han.jpg'>`;
 }
 function Yazdir4(){
-    document.getElementById("result").innerHTML=`<img width="60%" height="60%" src='./görseller/dedemuzver.jpeg'>`;
+    document.getElementById("result").innerHTML=`<img width="90%" height="60%" src='./görseller/dedemuzver.jpeg'>`;
 }
 function Yazdir5(){
-    document.getElementById("result").innerHTML=`<img width="60%" height="60%"  src='./görseller/formula.jpg'>`;
+    document.getElementById("result").innerHTML=`<img width="90%" height="60%"  src='./görseller/formula.jpg'>`;
 }
 function Yazdir6(){
-    document.getElementById("result").innerHTML=`<img width="60%" height="60%"  src='./görseller/mordeve.jpeg'>`;
+    document.getElementById("result").innerHTML=`<img width="90%" height="60%"  src='./görseller/mordeve.jpeg'>`;
 }
 function Yazdir7(){
-    document.getElementById("result").innerHTML=`<img width="60%" height="60%"  src='./görseller/cıvıkyumurta.jpeg'>`;
+    document.getElementById("result").innerHTML=`<img width="90%" height="60%"  src='./görseller/cıvıkyumurta.jpeg'>`;
 }
 function Yazdir8(){
-    document.getElementById("result").innerHTML=`<img width="60%" height="60%" src='./görseller/tamek.jpeg'>`;
+    document.getElementById("result").innerHTML=`<img width="90%" height="60%" src='./görseller/tamek.jpeg'>`;
 }
 function Yazdir9(){
-    document.getElementById("result").innerHTML=`<img width="60%" height="60%" src='./görseller/tolga.jpg'>`;
+    document.getElementById("result").innerHTML=`<img width="90%" height="60%" src='./görseller/tolga.jpg'>`;
 }
 function Yazdir10(){
     document.getElementById("result").innerHTML="";
