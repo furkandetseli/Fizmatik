@@ -23,6 +23,9 @@ function Yazdir8(){
     document.getElementById("result").innerHTML=`<img width="100%" height="100%" src='./görseller/tamek.jpeg'>`;
 }
 function Yazdir9(){
+    document.getElementById("result").innerHTML=`<img width="100%" height="100%" src='./görseller/tolga.jpg'>`;
+}
+function Yazdir10(){
     document.getElementById("result").innerHTML="";
 }
 
@@ -52,3 +55,6 @@ btnYaz8.onclick=Yazdir8;
 
 var btnYaz9=document.getElementById("btn-9");
 btnYaz9.onclick=Yazdir9;
+
+var btnYaz10=document.getElementById("btn-10");
+btnYaz10.onclick=Yazdir10;

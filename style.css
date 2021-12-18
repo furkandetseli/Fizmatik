@@ -258,6 +258,25 @@ div.right .result{
 .btn-9 {
     margin: 3px;
     border: none;
+    color: white;
+    background-color: rgb(0, 168, 160);
+    padding: 3% 20%;
+    cursor: pointer;
+    border: 2px solid rgb(0, 168, 160);
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+    float: left;
+    clear: both;
+}
+.btn-9:hover {
+    color: rgb(0, 168, 160);
+    background-color: #fff;
+    border: 2px solid rgb(0, 168, 160);
+}
+.btn-10 {
+    margin: 3px;
+    border: none;
     color: rgb(0, 168, 160);
     background-color: white;
     padding: 3% 20%;
@@ -269,7 +288,7 @@ div.right .result{
     float: left;
     clear: both;
 }
-.btn-9:hover {
+.btn-10:hover {
     color: white;
     background-color: rgb(0, 168, 160);
     border: 2px solid rgb(0, 168, 160);
