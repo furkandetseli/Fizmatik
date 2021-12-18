@@ -83,3 +83,16 @@ div#container .center{
     background: #ff695e;
     transition: 0.5s;
 }
+.left{
+    background-color: #ff695e;
+    width: 50%;
+    float: left;
+    height: 100%;
+    
+}
+.right{
+    background-color: aquamarine;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
