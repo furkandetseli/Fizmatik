@@ -42,7 +42,7 @@ div#baslik1 a{
     color: black;
     font-weight: bold;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 125.0%;
     padding: 6px 13px;
 }
 .navbar ul li a.active,
@@ -51,35 +51,5 @@ div#baslik1 a{
     border-radius: 2px;
     transition: 0.5s;
 }
+div#container .blok{width:460px;height:auto;float:left;border:1p x solid red;}
 
-div#container .center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-family: 'Roboto', sans-serif;
-    user-select: none;
-
-}
-.center h1{
-    font-size: 40px;
-    text-align: center;
-    font-weight: bold;
-}
-.center .buttons{
-    margin-top: 20px;
-    text-align: center;
-}
-
-.buttons button{
-    height: 40px;
-    width: 150px;
-    color: black;
-    font-weight: bold;
-    background: orange;
-    border-radius: 25px;
-}
-.buttons button:hover{
-    background: #ff695e;
-    transition: 0.5s;
-}
