@@ -1,36 +1,35 @@
 
 const fizikFormuller = [
-    { ad: "Fiziğin Alt Dalları", resim: "./görseller/kamyonet.jpg" },
-    { ad: "Temel Büyüklükler", resim: "./görseller/kısamuz.jpg" },
-    { ad: "Yoğunluk", resim: "./görseller/yoğunluk.jpg" },
-    { ad: "Kinetik Enerji", resim: "./görseller/kinetik.jpg" },
-    { ad: "Çekim Potansiyel Enerjisi", resim: "./görseller/morguvercin.jpg" },
-    { ad: "Sıvılarda Basınç", resim: "./görseller/sivibasinc.jpg" },
-    { ad: "Kapalı Kaplardaki Basınç", resim: "./görseller/pvnrt.jpg" },
-    { ad: "Sürtünme Kuvveti", resim: "./görseller/kene.jpg" },
-    { ad: "Atışlar, Serbest Düşme, Sürtünmeli Durum", resim: "./görseller/kosova.jpg" },
-    { ad: "İvme", resim: "./görseller/ivme.jpg" },
+    { ad: "Fiziğin Alt Dalları", resim: "./görseller/kamyonet.png" },
+    { ad: "Temel Büyüklükler", resim: "./görseller/kısamuz.png" },
+    { ad: "Yoğunluk", resim: "./görseller/dedemuzver.jpeg" },
+    { ad: "Kinetik Enerji", resim: "./görseller/mavikare.png" },
+    { ad: "Çekim Potansiyel Enerjisi", resim: "./görseller/morgüvercin.png" },
+    { ad: "Sıvılarda Basınç", resim: "./görseller/hadigari.png" },
+    { ad: "Kapalı Kaplardaki Basınç", resim: "./görseller/paraver.png" },
+    { ad: "Sürtünme Kuvveti", resim: "./görseller/kene.png" },
+    { ad: "Atışlar, Serbest Düşme, Sürtünmeli Durum", resim: "./görseller/kosova.png" },
+    { ad: "İvme", resim: "./görseller/damat.png" },
     // Diğer formüller ve resimler
 ];
 const kimyaFormuller = [
-    { ad: "İdeal Gaz Yasası", resim: "./görseller/gaz.jpg" },
-    { ad: "1A Grubu Elementleri", resim: "./görseller/1a.jpg" },
-    { ad: "2A Grubu Elementleri", resim: "./görseller/2a.jpg" },
-    { ad: "6A Grubu Elementleri:", resim: "./görseller/a6.jpg" },
-    { ad: "Periyodik Cetvelde Değişen Özelliklerin Artış Yönleri", resim: "./görseller/acemi.jpg" },
-    { ad: "Sıvılarda Basınç", resim: "./görseller/sivibasinc.jpg" },
+    { ad: "İdeal Gaz Yasası", resim: "./görseller/paraver.png" },
+    { ad: "1A Grubu Elementleri", resim: "./görseller/1a.png" },
+    { ad: "2A Grubu Elementleri", resim: "./görseller/2a.png" },
+    { ad: "6A Grubu Elementleri:", resim: "./görseller/a6.png" },
+    { ad: "Periyodik Cetvelde Değişen Özelliklerin Artış Yönleri", resim: "./görseller/acemi.png" },
     // Diğer formüller ve resimler
 ];
 
 const biyolojiFormuller = [
-    { ad: "Eşeysiz Üreme Şekilleri", resim: "./görseller/kamyonet.jpg" },
-    { ad: "Disakkaritler", resim: "./görseller/kısamuz.jpg" },
-    { ad: "Fotosentezde Devirli Fosforilasyon", resim: "./görseller/yoğunluk.jpg" },
-    { ad: "Canlıların Sınıflandırılması", resim: "./görseller/kinetik.jpg" },
-    { ad: "Bölünme Gerçekleştirmeyen Hücreler", resim: "./görseller/morguvercin.jpg" },
-    { ad: "Hücre Bölünme Sırası", resim: "./görseller/sivibasinc.jpg" },
+    { ad: "Eşeysiz Üreme Şekilleri", resim: "./görseller/1.png" },
+    { ad: "Disakkaritler", resim: "./görseller/2.png" },
+    { ad: "Fotosentezde Devirli Fosforilasyon", resim: "./görseller/3.png" },
+    { ad: "Canlıların Sınıflandırılması", resim: "./görseller/4.png" },
+    { ad: "Bölünme Gerçekleştirmeyen Hücreler", resim: "./görseller/5.png" },
+    { ad: "Hücre Bölünme Sırası", resim: "./görseller/6.png" },
     { ad: "ATP’nin Harcandığı Olaylar", resim: "./görseller/kabes.png" },
-    { ad: "Hücre Çeperi Bulunduran Canlılar", resim: "./görseller/kene.jpg" },
+    { ad: "Hücre Çeperi Bulunduran Canlılar", resim: "./görseller/7.png" },
     // Diğer formüller ve resimler
 ];
 
@@ -67,7 +66,7 @@ function formulleriGoster(formulListesi) {
         if (event.target.tagName === "BUTTON") {
             let btnIndex = parseInt(event.target.id.replace("btn-", ""));
             secilenFormul = formulListesi[btnIndex - 1]; // Doğru kullanım
-            document.getElementById("result").innerHTML = `<img width="90%" height="60%" src='${secilenFormul.resim}'>`;
+            document.getElementById("result").innerHTML = `<img width="90%" height="90%" src='${secilenFormul.resim}'>`;
         }
     });
 }
@@ -98,7 +97,7 @@ function formulleriGoster(formulListesi) {
         if (event.target.tagName === "BUTTON") {
             let btnIndex = parseInt(event.target.id.replace("btn-", ""));
             secilenFormul = formulListesi[btnIndex - 1];
-            document.getElementById("result").innerHTML = `<img width="90%" height="60%" src='${secilenFormul.resim}'>`;
+            document.getElementById("result").innerHTML = `<img width="90%" height="90%" src='${secilenFormul.resim}'>`;
         }
     });
 }
