@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fenmatik WIKI</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./görseller/mordeve.jpeg" type="image/x-icon" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fenmatik WIKI</title>
+<style>
+  body { font-family: Arial, sans-serif; text-align: center; }
+  #menu { margin-top: 20px; }
+  .menu-item { display: inline-block; margin: 0 15px; }
+  .menu-item a { text-decoration: none; color: #333; font-size: 18px; }
+</style>
 </head>
 <body>
-    <div class="container">
-        <div class="navbar">
-            <div class="baslik">
-                <a href="#" id="baslikyazi">Fenmatik WIKI</a>
-            </div>
-            <div class="menu">
-                <button id="fizikBtn" onclick="changeColor('grey')">Fizik</button>
-                <button id="kimyaBtn" onclick="changeColor('green')">Kimya</button>
-                <button id="biyolojiBtn" onclick="changeColor('red')">Biyoloji</button>
-            </div>
-        </div> 
-        <div class="left">
-            <!-- Formüller ve butonlar -->
-        </div>
-        <div class="right">
-            <!-- Formül Görseli -->
-        </div>
-        <div class="lower">
-            <h3 class="finally">Created By B.U.A.L.</h3>
-        </div>
-    </div>
-    <script src="app.js"></script>
+
+<h1>Fenmatik WIKI</h1>
+
+<div id="menu">
+  <div class="menu-item"><a href="#matematik">Matematik</a></div>
+  <div class="menu-item"><a href="#fen">Fen Bilimleri</a></div>
+  <div class="menu-item"><a href="#teknoloji">Teknoloji</a></div>
+</div>
+
+<!-- Matematik bölümü içeriği -->
+<div id="matematik">
+  <h2>Matematik Ders Konuları</h2>
+  <!-- Matematik ders konularınızı buraya ekleyin -->
+</div>
+
+<!-- Fen Bilimleri bölümü içeriği -->
+<div id="fen">
+  <h2>Fen Bilimleri Ders Konuları</h2>
+  <!-- Fen Bilimleri ders konularınızı buraya ekleyin -->
+</div>
+
+<!-- Teknoloji bölümü içeriği -->
+<div id="teknoloji">
+  <h2>Teknoloji Ders Konuları</h2>
+  <!-- Teknoloji ders konularınızı buraya ekleyin -->
+</div>
+
 </body>
 </html>
