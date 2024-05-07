@@ -288,6 +288,26 @@ div.right .result{
     float: left;
     clear: both;
 }
+.menu button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#fizikBtn {
+    background-color: grey;
+}
+
+#kimyaBtn {
+    background-color: green;
+}
+
+#biyolojiBtn {
+    background-color: red;
+}
+
 .btn-10:hover {
     color: white;
     background-color: rgb(0, 168, 160);
