@@ -1,26 +1,15 @@
-/* Menu Stilleri */
-.menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+/* Genel Stiller */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
 }
 
-.menu button {
-    padding: 10px 20px;
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-    width: 80%; /* Buton genişliği */
+.container {
+    width: 100%;
+    text-align: center;
 }
 
-/* Buton hover efekti */
-.menu button:hover {
-    opacity: 0.9;
-}
 /* Navbar Stilleri */
 .navbar {
     background-color: #4CAF50; /* Yeşil arka plan rengi */
@@ -53,4 +42,35 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0
+    transition: background-color 0.3s ease;
+}
+
+/* Buton hover efekti */
+.menu button:hover {
+    opacity: 0.9;
+}
+
+/* Sol Bölüm Stilleri */
+.left {
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+/* Sağ Bölüm Stilleri */
+.right {
+    float: right;
+    width: 75%;
+    padding: 10px;
+}
+
+/* Alt Bölüm Stilleri */
+.lower {
+    clear: both;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.finally {
+    font-size: 18px;
+}
