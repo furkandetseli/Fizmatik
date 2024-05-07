@@ -1,3 +1,4 @@
+// Görselleri göstermek için fonksiyonlar
 function Yazdir(){
     document.getElementById("result").innerHTML=`<img width="90%" height="60%"  src='./görseller/bavul.jpg'>`;
 }
@@ -29,6 +30,7 @@ function Yazdir10(){
     document.getElementById("result").innerHTML="";
 }
 
+// Butonlara tıklama olaylarını atama
 var btnYaz1=document.getElementById("btn-1");
 btnYaz1.onclick=Yazdir;
 
@@ -56,9 +58,10 @@ btnYaz8.onclick=Yazdir8;
 var btnYaz9=document.getElementById("btn-9");
 btnYaz9.onclick=Yazdir9;
 
+var btnYaz10=document.getElementById("btn-10");
+btnYaz10.onclick=Yazdir10;
+
+// Navbar rengini değiştirmek için fonksiyon
 function changeColor(color) {
     document.querySelector('.navbar').style.backgroundColor = color;
 }
-
-var btnYaz10=document.getElementById("btn-10");
-btnYaz10.onclick=Yazdir10;
