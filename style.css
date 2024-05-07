@@ -1,316 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
-
-*{
+/* Genel Stiller */
+body, html {
     margin: 0;
     padding: 0;
+    font-family: 'Arial', sans-serif;
 }
-.container{
-    height: 100vh;
-    background-size: 100% 100%;
-}
-.navbar{
-    background-color: rgba(223, 223, 223, 0.733);
+
+.container {
     width: 100%;
-    height: 10%;
-    border-bottom: groove;
-    border-bottom-width: 1px;
-}
-/* .navbar ul{
-    float: right;
-    margin-right: 5vh;
-} */
-.baslik{
     text-align: center;
-    padding: 2.5vh;
 }
-.baslik a{
-    text-align: center;
+
+/* Navbar Stilleri */
+.navbar {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
+
+.baslik #baslikyazi {
+    font-size: 24px;
     text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 4vh;
-    font-family: 'Roboto', sans-serif;
-}
-.navbar ul li{
-    font-family: 'Roboto', sans-serif;
-    list-style: none;
-    display: inline-block;
-    margin: 0 1vh;
-    line-height: 10vh;
-}
-.navbar ul li a{
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 2vw;
-    padding: 6px 13px;
-}
-.navbar ul li a.active,
-.navbar ul li a:hover{
-    background-color: orange;
-    border-radius: 2px;
-    transition: 0.5s;
+    color: #333;
 }
 
-.left{
-    width: 50%;
-    float: left;
-    height: 90%;
-    border-right: groove;
-    border-right-width: 1px;
-    border-color: black;
+.menu {
+    margin-top: 10px;
 }
-div.left .buttons{
-    margin: 10px 10%;
-    height: 95%;
-}
-.left h3{
-    padding: 10px 0 0 0;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-.right{
-    float: left;
-    width: 49%;
-    height: 90%;
-}
-.right h3{
-    padding: 10px 0 0 0;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-div.right .result{
-    margin: 10px 10%;
-    height: 500px;
 
-}
-.lower{
-    height: 100%;
-    width: 100%;
-    border-top: groove;
-    border-top-width: 1px;
-    border-color: #000;
-}
-.finally{
-    width: 100%;
-    margin: 2% 0 0 0;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    list-style: none;
-    display: inline-block;
-    color: black;
-    
-}
-.btn-1 {
-    margin: 3px;
-
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-1:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-2 {
-    margin: 3px;
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-2:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-3 {
-    margin: 3px;
-
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-3:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-4 {
-    margin: 3px;
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-4:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-5 {
-    margin: 3px;
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-5:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-6 {
-    margin: 3px;
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-6:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-7 {
-    margin: 3px;
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-7:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-8 {
-    margin: 3px;
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-8:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-9 {
-    margin: 3px;
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-9:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-10 {
-    margin: 3px;
-    border: none;
-    color: rgb(0, 168, 160);
-    background-color: white;
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
 .menu button {
-    padding: 10px;
-    margin: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.menu button:hover {
+    opacity: 0.9;
 }
 
 #fizikBtn {
-    background-color: grey;
+    background-color: #cccccc;
 }
 
 #kimyaBtn {
-    background-color: green;
+    background-color: #90ee90;
 }
 
 #biyolojiBtn {
-    background-color: red;
+    background-color: #ffcccb;
 }
 
-.btn-10:hover {
-    color: white;
-    background-color: rgb(0, 168, 160);
-    border: 2px solid rgb(0, 168, 160);
+/* Sol Bölüm Stilleri */
+.left {
+    float: left;
+    width: 20%;
+    padding: 10px;
 }
-    
+
+/* Sağ Bölüm Stilleri */
+.right {
+    float: right;
+    width: 75%;
+    padding: 10px;
+}
+
+/* Alt Bölüm Stilleri */
+.lower {
+    clear: both;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.finally {
+    font-size: 18px;
+}
