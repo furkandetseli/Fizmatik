@@ -56,5 +56,9 @@ btnYaz8.onclick=Yazdir8;
 var btnYaz9=document.getElementById("btn-9");
 btnYaz9.onclick=Yazdir9;
 
+function changeColor(color) {
+    document.querySelector('.navbar').style.backgroundColor = color;
+}
+
 var btnYaz10=document.getElementById("btn-10");
 btnYaz10.onclick=Yazdir10;
