@@ -21,3 +21,36 @@
 .menu button:hover {
     opacity: 0.9;
 }
+/* Navbar Stilleri */
+.navbar {
+    background-color: #4CAF50; /* Yeşil arka plan rengi */
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.baslik #baslikyazi {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff; /* Beyaz yazı rengi */
+}
+
+/* Menu Stilleri */
+.menu {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0
