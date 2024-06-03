@@ -4,13 +4,41 @@
     margin: 0;
     padding: 0;
 }
+
+
+.fullscreen-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000; /* Arka plan rengi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 3; /* Başlangıçta görünür */
+    transition: opacity 4s ease;
+}
+
+.fullscreen-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Resme tıklanınca görünmez yap */
+.fullscreen-image.hidden {
+    opacity: 0;
+}
+
+
 .container {
     height: 100vh;
     background-size: 100% 100%;
+    /* background-color: rgba(11, 11, 29, 0.733); */
 }
 
 .navbar{
-    background-color: rgba(223, 223, 223, 0.733);
+    background-color: rgba(16, 16, 22, 0.89);
     width: 100%;
     height: 17%;
     border-bottom: groove;
@@ -26,9 +54,9 @@
 .button-container button {
     padding: 10px 10px;
     margin: 0 5px;
-    background-color: gray;
-    color: #fff;
-    border: 2px solid gray;
+    background-color: rgb(255, 255, 255);
+    color: #a01a1a;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
@@ -38,7 +66,7 @@
 }
 
 .button-container button:hover {
-    background-color: gray;
+    background-color: rgb(210, 211, 214);
 }
 
 
@@ -59,20 +87,25 @@
 .baslik a{
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 4vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
 }
+  
 .navbar ul li{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
     list-style: none;
     display: inline-block;
     margin: 0 1vh;
     line-height: 10vh;
 }
 .navbar ul li a{
-    color: black;
+    color: rgb(255, 255, 255);
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
     font-weight: bold;
     text-decoration: none;
     font-size: 2vw;
@@ -92,9 +125,10 @@
     border-right: groove;
     border-right-width: 1px;
     border-color: black;
+    /* overflow-x: auto; */
 }
 div.left .buttons{
-    margin: 10px 10%;
+    margin: 5px 10%;
     height: 95%;
 }
 .left h3{
@@ -113,7 +147,7 @@ div.left .buttons{
     text-align: center;
 }
 div.right .result{
-    margin: 10px 10%;
+    margin: 4px 2%;
     height: 500px;
 
 }
@@ -123,6 +157,7 @@ div.right .result{
     border-top: groove;
     border-top-width: 1px;
     border-color: #000;
+    background-color: rgba(13, 13, 20, 0.733);
 }
 .finally{
     width: 100%;
@@ -134,196 +169,23 @@ div.right .result{
     color: black;
     
 }
-.btn-1 {
-    margin: 3px;
-
+.btn-biyoloji {
+    margin: 1px;
     border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
+    color: #a01a1a;
+    background-color: rgb(255, 255, 255);
+    padding: 2% 20%;
     cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
+    border: 3px solid rgb(255, 255, 255);
     -moz-border-radius: 16px;
     -webkit-border-radius: 16px;
     border-radius: 16px;
     float: left;
     clear: both;
-}
-.btn-1:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-2 {
-    margin: 3px;
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-2:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-3 {
-    margin: 3px;
-
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-3:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-4 {
-    margin: 3px;
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-4:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-5 {
-    margin: 3px;
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-5:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-6 {
-    margin: 3px;
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-6:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-7 {
-    margin: 3px;
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-7:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-8 {
-    margin: 3px;
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-8:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-9 {
-    margin: 3px;
-    border: none;
-    color: white;
-    background-color: rgb(0, 168, 160);
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-9:hover {
-    color: rgb(0, 168, 160);
-    background-color: #fff;
-    border: 2px solid rgb(0, 168, 160);
-}
-.btn-10 {
-    margin: 3px;
-    border: none;
-    color: rgb(0, 168, 160);
-    background-color: white;
-    padding: 3% 20%;
-    cursor: pointer;
-    border: 2px solid rgb(0, 168, 160);
-    -moz-border-radius: 16px;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
-    float: left;
-    clear: both;
-}
-.btn-10:hover {
-    color: white;
-    background-color: rgb(0, 168, 160);
-    border: 2px solid rgb(0, 168, 160);
-}
     
+}
+.btn-biyoloji:hover {
+    color: white;
+    background-color: #a01a1a;
+    border: 5px solid #a01a1a;
+}
