@@ -66,7 +66,8 @@
 }
 
 .button-container button:hover {
-    background-color: rgb(210, 211, 214);
+    background-color: #a01a1a;
+    color: white;
 }
 
 
