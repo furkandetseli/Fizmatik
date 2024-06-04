@@ -1,2 +1,2 @@
-# Fizmatik
-Tubitak Fizik Projesi
+# Fenmatik
+Tubitak Fen Projesi
