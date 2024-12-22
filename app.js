@@ -29,7 +29,7 @@ const kimyaFormuller = [
     { ad: "2A Grubu Elementleri", resim: "./görseller/2a.png" },
     { ad: "6A Grubu Elementleri:", resim: "./görseller/a6.png" },
     { ad: "Periyodik Cetvelde Değişen Özelliklerin Artış Yönleri", resim: "./görseller/acemi.png" },
-    { ad: "Amofer Metaller", resim: "./görseller/a6.png" },
+    { ad: "Amfoter Metaller", resim: "./görseller/a6.png" },
     // Diğer formüller ve resimler
 ];
 
