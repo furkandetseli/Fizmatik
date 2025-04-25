@@ -7,9 +7,10 @@
     <title>Fenmatik WIKI</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Honk:MORF,SHLN@23,32.9&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./görseller/mordeve.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <div class="fullscreen-image">
@@ -18,30 +19,41 @@
     <div class="container">
         <div class="navbar">
             <div class="baslik">
-                <a href="#" id="baslikyazi">Fenmatik WIKI</a>
+                <a href="#" id="baslikyazi"><i class="fas fa-atom"></i> Fenmatik WIKI</a>
             </div>
             <!--<ul>
                 <li><a href="#" class="active">Ana Sayfa</a></li>
                 <li><a href="#">Hakkımızda</a></li>
             </ul>-->
             <div class="button-container">
-                <button id="fizik-buton">Fizik</button>
-                <button id="kimya-buton">Kimya</button>
-                <button id="biyoloji-buton">Biyoloji</button>
+                <button id="fizik-buton"><i class="fas fa-magnet"></i> Fizik</button>
+                <button id="kimya-buton"><i class="fas fa-flask"></i> Kimya</button>
+                <button id="biyoloji-buton"><i class="fas fa-dna"></i> Biyoloji</button>
             </div>
         </div> 
-        <div class="left">
-            <h3>Formüller</h3>
-            <div class="buttons">
+        <div class="content-wrapper">
+            <div class="left">
+                <h3>Formüller</h3>
+                <div class="buttons">
+                </div>
+            </div>
+            <div class="right">
+                <h3>Formül Görseli</h3>
+                <div id="result" class="result"></div>
             </div>
         </div>
-        <div class="right">
-            <h3>Formül Görseli</h3>
-            <div id="result" class="result"></div>
-        </div>
         <div class="lower">
-            <h3 class="finally">Created By B.U.A.L.</h1>
+            <h3 class="finally">Created By B.U.A.L.</h3>
+            <div class="social-icons">
+                <a href="https://github.com/furkandetseli" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://bual.meb.k12.tr/" target="_blank"><i class="fas fa-globe"></i></a>
+            </div>
         </div>
+    </div>
+    <!-- Büyütülmüş görsel için modal -->
+    <div id="imageModal" class="image-modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
     </div>
     <script src="app.js"></script>
 </body>
